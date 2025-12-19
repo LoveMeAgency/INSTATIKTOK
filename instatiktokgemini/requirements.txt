@@ -1,3 +1,4 @@
-instagrapi==1.16.0
-schedule==1.2.0
-browser-cookie3==0.19.1
+instagrapi
+schedule
+tiktok-uploader
+urllib3<2.0
