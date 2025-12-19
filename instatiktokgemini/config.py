@@ -21,4 +21,4 @@ DESCRIPTION = """Ton texte accrocheur ici 🎯
 #FishaFrance #Leaks #France #Viral #Reels #TikTokFR"""
 
 # Heures de publication
-POST_TIMES = ["09:15", "12:15", "15:15", "18:15", "21:15"]
+POST_TIMES = ["00:30", "12:15", "15:15", "18:15", "21:15"]
