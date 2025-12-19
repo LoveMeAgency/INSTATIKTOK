@@ -4,7 +4,7 @@ import time
 import schedule
 from datetime import datetime
 from instagrapi import Client as InstaClient
-from tiktok_uploader.proxy_auth import upload_video
+from tiktok_uploader.upload import upload_video
 import config
 
 class SocialBot:
