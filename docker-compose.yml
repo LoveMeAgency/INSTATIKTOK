@@ -1,0 +1,21 @@
+x-bot-template: &bot-template
+  restart: always
+  working_dir: /app
+  command: ["python", "-u", "bot.py"]
+  environment:
+    TZ: Europe/Paris           # ajuste si besoin
+    PYTHONUNBUFFERED: "1"
+  logging:
+    driver: json-file
+    options:
+      max-size: "10m"
+      max-file: "3"
+
+services:
+  instatiktokgemini:
+    <<: *bot-template
+    build: ./instatiktokgemini
+    container_name: instatiktokgemini
+    volumes:
+      - ./instatiktokgemini:/app
+      - ./instatiktokgemini/session:/app/session
