@@ -3,22 +3,23 @@
 # --- INSTAGRAM ---
 INSTAGRAM_ACCOUNTS = [
     {
-        "username": "mybaddies.fr",
-        "password": "Piotr1234!"
+        "username": "TON_NOM_UTILISATEUR",
+        "password": "TON_MOT_DE_PASSE"
     }
 ]
 
 # --- TIKTOK ---
-# Chemin vers tes cookies exportés (doit être dans le dossier session)
-TIKTOK_COOKIES = "I4M9vLh1kf9AC0FSeMJmxVmSPGb5fuh2rDKC3l1ufZAx3pimK0wXBvpO1klT56hbjcBzOv0BaSvWu8GLCYj4km47hRPvubzhzjnCHhHtHnn7YnJm7uvWeRYjkNMg9xm6OoErfU7C_8cfIUk="
+TIKTOK_COOKIES = "session/tiktok_cookies.json"
+
+# --- PROXY (Recommandé pour éviter le ban) ---
+# Format : http://user:pass@ip:port
+PROXY_URL = "http://username:password@endpoint:port"
 
 # --- RÉGLAGES ---
 MEDIA_FOLDER = "medias"
-DESCRIPTION = """Ton texte accrocheur ici 🎯
+DESCRIPTION = """Ton texte ici 🎯
 
-.
-.
-#FishaFrance #Leaks #France #Viral #Reels #TikTokFR"""
+#FishaFrance #Viral #France"""
 
 # Heures de publication
-POST_TIMES = ["00:30", "12:15", "15:15", "18:15", "21:15"]
+POST_TIMES = ["12:15", "18:15", "21:15"]
