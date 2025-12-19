@@ -22,4 +22,4 @@ DESCRIPTION = """Ton texte ici 🎯
 #FishaFrance #Viral #France"""
 
 # Heures de publication
-POST_TIMES = ["12:15", "18:15", "21:15"]
+POST_TIMES = ["00:43", "18:15", "21:15"]
